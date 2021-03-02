@@ -2,12 +2,12 @@
 ### Abstract 
 This is a derivate of a simple todo app stored on firebase.
 
-For proper usage you have to create an account in firebase to use the firebase reactive database, the firestore to host the app and the SSo with google. For this simple purpose the firebase is configured to only accept read and write statements of preconfigured users. Set firestore rules like:
+For proper usage you have to create an firebase account to use the firebase reactive database, the firestore to host the app and the SSO authentication with google. For this simple purpose the firebase is configured to only accept read and write statements of preconfigured users. Set firestore rules like:
 ```
 service cloud.firestore {
   match /databases/{database}/documents {
     match /tasks/{document=**} {
-      allow read, write, update, delete: if request.auth.uid == "UID_OF_AUTHENTIATION";
+      allow read, write, update, delete: if request.auth.uid == "UID_OF_AUTHENTICATION";
     }
   }
 }
