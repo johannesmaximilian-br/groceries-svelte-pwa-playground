@@ -2,10 +2,11 @@
     #footer {
         padding: 20px;
         text-align: center;
-        background: linear-gradient(352deg, rgba(208,157,135,1) 3%, rgba(200,246,255,1) 100%);
+        background: rgb(34,193,195);
+        background: linear-gradient(173deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
         color: #fff;
     }
 </style>
 <section id="footer">
-    Made with ❤️&nbsp;&nbsp;2020<br/>
+    Made with ❤️&nbsp;&nbsp;2022<br/>
 </section>

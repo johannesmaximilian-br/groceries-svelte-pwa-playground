@@ -1,11 +1,12 @@
 {
-  "name": "Web ToDo",
-  "short_name": "Web ToDo",
+  "name": "Web Groceries List",
+  "short_name": "Web Groceries List",
   "lang": "de-DE",
   "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white",
+  "id": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#fdbb2d",
+  "theme_color": "#fdbb2d",
   "icons": [{
     "src": "images/icon-128.png",
     "sizes": "128x128",
@@ -16,6 +17,11 @@
     "sizes": "144x144",
     "type": "image/png",
     "purpose": "maskable"
+  }, {
+    "src": "images/icon-144.png",
+    "sizes": "144x144",
+    "type": "image/png",
+    "purpose": "any"
   }, {
     "src": "images/icon-152.png",
     "sizes": "152x152",

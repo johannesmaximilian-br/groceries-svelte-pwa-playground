@@ -37,7 +37,7 @@
         border-radius: 7px;
     }
 </style>
-<section>
+
 {#if user}
     <Profile {...user} />
     <Groceries uid={user.uid} />
@@ -50,4 +50,3 @@
         </button>
     </div>
 {/if}
-</section>

@@ -1,4 +1,4 @@
-const cacheName = 'web-todo-cache-2';
+const cacheName = 'web-groceries-list';
 const expectedCaches = [cacheName];
 const filesToCache = [
     '/',
@@ -6,7 +6,7 @@ const filesToCache = [
     '/global.css',
     '/build/bundle.css',
     '/build/bundle.js',
-    '/images/web-todo-logo.png'
+    '/images/web-groceries-logo.png'
 ];
 
 /* Start the service worker and cache all of the app's content */

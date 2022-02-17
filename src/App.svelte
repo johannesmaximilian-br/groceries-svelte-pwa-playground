@@ -8,6 +8,9 @@
 
 <style>
 	main {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
 		padding: 0;
 		margin: 0 auto;
 	}

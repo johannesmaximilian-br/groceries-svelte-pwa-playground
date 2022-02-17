@@ -78,34 +78,12 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
 ## Deploying to the web
 
-### With [now](https://zeit.co/now)
+### With [firebase](https://firebase.google.com)
+Create Account ...
 
-Install `now` if you haven't already:
+Configure `.firebaserc` and `src/firebase.js`
 
-```bash
-npm install -g now
-```
+Install firebase CLI and run
 
-Then, from within your project folder:
-
-```bash
-cd public
-now deploy --name my-project
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+`firebase login`
+`firebase deploy`
